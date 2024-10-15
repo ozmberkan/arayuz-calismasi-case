@@ -1,19 +1,19 @@
-import Hero from "~/components/Home/Hero";
-import ProductList from "~/components/Home/ProductList";
-import JoinUs from "~/components/Home/JoinUs";
-import Carousel from "~/components/Home/Carousel";
-import Collection from "~/components/Home/Collection";
-import MapSection from "~/components/Home/MapSection";
+import Hero from "~/components/Home/Hero/Hero";
+import ProductList from "~/components/Home/ProductList/ProductList";
+import JoinUs from "~/components/Home/JoinUs/JoinUs";
+import Carousel from "~/components/Home/Carousel/Carousel";
+import Collection from "~/components/Home/Collection/Collection";
+import MapSection from "~/components/Home/MapSection/MapSection";
 
 const Home = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col flex-grow">
       <Hero />
-      <ProductList />
-      <JoinUs />
-      <Carousel />
-      <Collection />
-      <MapSection />
+      {/* <ProductList /> */}
+      {/* <JoinUs /> */}
+      {/* <Carousel /> */}
+      {/* <Collection /> */}
+      {/* <MapSection /> */}
     </div>
   );
 };

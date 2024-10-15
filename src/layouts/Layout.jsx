@@ -7,10 +7,8 @@ const Layout = () => {
   return (
     <Container>
       <Navbar />
-      <main className="flex-grow ">
-        <Outlet />
-      </main>
-      <Footer />
+      <Outlet />
+      {/* <Footer /> */}
     </Container>
   );
 };

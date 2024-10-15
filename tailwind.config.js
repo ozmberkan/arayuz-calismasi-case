@@ -6,6 +6,13 @@ export default {
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
       },
+      colors: {
+        colorPrimaryBrown: "#78350F",
+        colorPrimaryBlack: "#0F172A",
+        colorCheck: "#15803D",
+        colorCompany: "#475569",
+        colorHeroShoeBg: "#FBBF24",
+      },
     },
   },
   plugins: [],
