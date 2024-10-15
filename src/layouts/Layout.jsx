@@ -1,4 +1,3 @@
-import React from "react";
 import { Outlet } from "react-router-dom";
 import Footer from "~/components/Footer/Footer";
 import Navbar from "~/components/Navbar/Navbar";
@@ -8,7 +7,7 @@ const Layout = () => {
   return (
     <Container>
       <Navbar />
-      <main className="flex-grow bg-red-500">
+      <main className="flex-grow ">
         <Outlet />
       </main>
       <Footer />

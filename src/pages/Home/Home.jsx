@@ -1,9 +1,9 @@
+import Hero from "~/components/Home/Hero";
+import ProductList from "~/components/Home/ProductList";
+import JoinUs from "~/components/Home/JoinUs";
 import Carousel from "~/components/Home/Carousel";
 import Collection from "~/components/Home/Collection";
-import Hero from "~/components/Home/Hero";
-import JoinUs from "~/components/Home/JoinUs";
 import MapSection from "~/components/Home/MapSection";
-import ProductList from "~/components/Home/ProductList";
 
 const Home = () => {
   return (
