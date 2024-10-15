@@ -10,6 +10,14 @@ import Card1 from "~/assets/ProductList/Card1.png";
 import Card2 from "~/assets/ProductList/Card2.png";
 import Card3 from "~/assets/ProductList/Card3.png";
 
+import { FaArrowRight, FaCheck } from "react-icons/fa";
+import { LuShieldCheck } from "react-icons/lu";
+import { IoRocketOutline } from "react-icons/io5";
+import { FiMonitor } from "react-icons/fi";
+import { GoSearch } from "react-icons/go";
+import { MdOutlinePodcasts } from "react-icons/md";
+import { GiSettingsKnobs } from "react-icons/gi";
+
 export const navTabs = [
   { id: 1, label: "Products" },
   { id: 2, label: "Solutions" },
@@ -68,4 +76,30 @@ export const ProductListCards = [
       "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
     image: Card3,
   },
+];
+
+export const JoinUsTextData = [
+  {
+    id: 1,
+    text: "Est et in pharetra magnaadipiscing ornare aliquam.",
+    icon: FaCheck,
+  },
+  {
+    id: 2,
+    text: "Tellus arcu sed consequat ac velit ut eu blandit.",
+    icon: FaCheck,
+  },
+  {
+    id: 3,
+    text: "Ullamcorper ornare in et egestas dolor orci.",
+    icon: FaCheck,
+  },
+];
+
+export const collectionBoxData = [
+  { id: 1, text: "Cras eget", icon: LuShieldCheck },
+  { id: 2, text: "Dolor pharetra", icon: IoRocketOutline },
+  { id: 3, text: "Amet, fringilla", icon: FiMonitor },
+  { id: 4, text: "Amet nibh", icon: MdOutlinePodcasts },
+  { id: 5, text: "Sed velit", icon: GiSettingsKnobs },
 ];

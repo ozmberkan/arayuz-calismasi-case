@@ -12,8 +12,8 @@ const Home = () => {
       <ProductList />
       <JoinUs />
       {/* <Carousel /> */}
-      {/* <Collection /> */}
-      {/* <MapSection /> */}
+      <Collection />
+      <MapSection />
     </div>
   );
 };
