@@ -7,6 +7,18 @@
 }
 
 
+.cardShadow {
+  box-shadow: 0px 25px 50px -12px #FFFFFF40;
+
+}
+
+.joinUsBoxShadow {
+
+box-shadow: 0px 20px 25px -5px #0000001A;
+
+}
+
+
 body {
   @apply bg-gradient-custom font-roboto
 }

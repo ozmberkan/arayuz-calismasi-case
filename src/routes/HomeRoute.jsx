@@ -5,6 +5,6 @@ import NotFound from "~/pages/NotFound/NotFound";
 export const HomeRoute = {
   path: "/",
   element: <Layout />,
-  errorElement: <NotFound />,
+  // errorElement: <NotFound />,
   children: [{ path: "/", element: <Home /> }],
 };

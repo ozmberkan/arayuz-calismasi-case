@@ -13,6 +13,9 @@ export default {
         colorCompany: "#475569",
         colorHeroShoeBg: "#FBBF24",
       },
+      backgroundImage: {
+        backlights: "url('/src/assets/ProductList/Backlights.png')",
+      },
     },
   },
   plugins: [],

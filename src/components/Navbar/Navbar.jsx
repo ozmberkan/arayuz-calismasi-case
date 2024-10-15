@@ -3,7 +3,7 @@ import { navTabs } from "~/data/data";
 
 const Navbar = () => {
   return (
-    <div className="w-full flex justify-between items-center h-24 px-20 py-6">
+    <div className="w-full flex justify-between items-center h-24 px-20 py-6 z-10">
       <Link
         to="/"
         className="text-[32px] text-primaryBrown text-colorPrimaryBrown font-bold"

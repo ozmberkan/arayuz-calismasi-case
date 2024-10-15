@@ -9,8 +9,8 @@ const Home = () => {
   return (
     <div className="flex flex-col flex-grow">
       <Hero />
-      {/* <ProductList /> */}
-      {/* <JoinUs /> */}
+      <ProductList />
+      <JoinUs />
       {/* <Carousel /> */}
       {/* <Collection /> */}
       {/* <MapSection /> */}
