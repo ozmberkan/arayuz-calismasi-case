@@ -1,4 +1,3 @@
-import React from "react";
 import Box from "./Box";
 import { HeroSections } from "~/data/data";
 

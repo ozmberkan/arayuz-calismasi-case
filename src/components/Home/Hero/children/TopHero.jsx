@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import Shoe from "~/assets/Hero/Shoe.png";
 import { HiOutlinePlayCircle } from "react-icons/hi2";
+import Shoe from "~/assets/Hero/Shoe.png";
 
 const TopHero = () => {
   return (

@@ -1,5 +1,5 @@
-import BottomHero from "./children/BottomHero";
 import TopHero from "./children/TopHero";
+import BottomHero from "./children/BottomHero";
 import heroBg from "~/assets/Hero/HeroBg.svg";
 
 const Hero = () => {

@@ -2,33 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  .bg-gradient-custom { background-image: linear-gradient(180deg, #FFFBEB 0%, #FFFFFF 89.63%);}
-}
+@layer utilities {.bg-gradient-custom { background-image: linear-gradient(180deg, #FFFBEB 0%, #FFFFFF 89.63%);}}
 
+.cardShadow {box-shadow: 0px 25px 50px -12px #FFFFFF40}
+.joinUsBoxShadow {box-shadow: 0px 20px 25px -5px #0000001A;}
 
-.cardShadow {
-  box-shadow: 0px 25px 50px -12px #FFFFFF40;
-
-}
-
-.joinUsBoxShadow {
-
-box-shadow: 0px 20px 25px -5px #0000001A;
-
-}
 
 
 body {
   @apply bg-gradient-custom font-roboto
 }
 
-*::-webkit-scrollbar {width: 12px; }
-*::-webkit-scrollbar-track {background: #0f172a;}
-*::-webkit-scrollbar-thumb {
-  background-color: #1e293b; 
-  border-radius: 6px; 
-  border: 3px solid #0f172a; 
-}
-*::-webkit-scrollbar-thumb:hover {background-color: #334155;}
+
 

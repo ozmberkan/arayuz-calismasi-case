@@ -1,4 +1,3 @@
-import React from "react";
 import Screens from "~/assets/Collection/Col.svg";
 import { GoSearch } from "react-icons/go";
 import { FaArrowRight } from "react-icons/fa6";
@@ -18,7 +17,10 @@ const CollectionBox = () => {
           </span>
         </div>
         {collectionBoxData.map((item) => (
-          <div className="gap-x-4 font-medium text-colorPrimaryBlack w-[35%] p-4 flex items-center justify-start">
+          <div
+            key={item.id}
+            className="gap-x-4 font-medium text-colorPrimaryBlack w-[35%] p-4 flex items-center justify-start"
+          >
             <span className="text-xl">
               <item.icon />
             </span>

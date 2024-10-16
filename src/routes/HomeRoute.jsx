@@ -1,10 +1,10 @@
 import Layout from "~/layouts/Layout";
-import Home from "~/pages/Home/Home";
 import NotFound from "~/pages/NotFound/NotFound";
+import Home from "~/pages/Home/Home";
 
 export const HomeRoute = {
   path: "/",
   element: <Layout />,
-  // errorElement: <NotFound />,
+  errorElement: <NotFound />,
   children: [{ path: "/", element: <Home /> }],
 };

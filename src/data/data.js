@@ -10,11 +10,10 @@ import Card1 from "~/assets/ProductList/Card1.png";
 import Card2 from "~/assets/ProductList/Card2.png";
 import Card3 from "~/assets/ProductList/Card3.png";
 
-import { FaArrowRight, FaCheck } from "react-icons/fa";
+import { FaCheck } from "react-icons/fa";
 import { LuShieldCheck } from "react-icons/lu";
 import { IoRocketOutline } from "react-icons/io5";
 import { FiMonitor } from "react-icons/fi";
-import { GoSearch } from "react-icons/go";
 import { MdOutlinePodcasts } from "react-icons/md";
 import { GiSettingsKnobs } from "react-icons/gi";
 
@@ -102,4 +101,25 @@ export const collectionBoxData = [
   { id: 3, text: "Amet, fringilla", icon: FiMonitor },
   { id: 4, text: "Amet nibh", icon: MdOutlinePodcasts },
   { id: 5, text: "Sed velit", icon: GiSettingsKnobs },
+];
+
+export const menuItems = [
+  {
+    title: "Product",
+    links: ["Pricing", "Overview", "Browse", "Accessibility", "Five"],
+  },
+  {
+    title: "Solutions",
+    links: ["Brainstorming", "Ideation", "Wireframing", "Research", "Design"],
+  },
+  {
+    title: "Support",
+    links: [
+      "Contact Us",
+      "Developers",
+      "Documentation",
+      "Integrations",
+      "Reports",
+    ],
+  },
 ];
