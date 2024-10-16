@@ -1,8 +1,37 @@
-# React + Vite
+# Baykar Frontend Case
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, çeşitli kütüphanelerin entegre edildiği basit bir React tabanlı uygulamanın test case'idir. Kullanıcı arayüzü ve işlevsellik iyileştirmeleri için bir dizi paket kullanılmıştır.
 
-Currently, two official plugins are available:
+## Paketler - Teknoloji Yığını
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- React DOM
+- React Icons
+- React Modern Drawer
+- React Responsive
+- React Router DOM
+- React Slick
+- Slick Carousel
+- Tailwind CSS ile stil yönetimi
+
+## Yükleme
+
+Repoyu klonlayın:
+
+```bash
+ git clone https://github.com/ozmberkan/arayuz-calismasi-case
+```
+
+Bağımlılıkları yükleyin:
+
+```bash
+ npm install
+```
+
+Geliştirme sunucusunu başlatın:
+
+```bash
+ npm run dev
+```
+
+Tarayıcınızda http://localhost:3030 adresine gidin.

@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 import { navTabs } from "~/data/data";
 import { useMediaQuery } from "react-responsive";
 import { TbMenuDeep } from "react-icons/tb";
+import { useState } from "react";
 import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
-import { useState } from "react";
 
 const Navbar = () => {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
@@ -57,12 +57,7 @@ const Navbar = () => {
           </button>
         </div>
       )}
-      <Drawer
-        open={isOpen}
-        onClose={toggleDrawer}
-        direction="right"
-        className="bla bla bla"
-      >
+      <Drawer open={isOpen} onClose={toggleDrawer} direction="right">
         <div className="flex gap-x-4 items-start justify-between gap-y-5 flex-col p-5 w-full  ">
           {navTabs.map((tab) => (
             <Link
