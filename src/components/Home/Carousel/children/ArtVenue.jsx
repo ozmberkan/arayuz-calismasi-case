@@ -10,14 +10,14 @@ const ArtVenue = () => {
         <img src={VenueIcon} />
         <span className="text-colorCompany font-bold text-2xl">ArtVenue</span>
       </div>
-      <p className="text-2xl font-normal text-black">
+      <p className="lg:text-2xl font-normal text-black">
         A eget sed posuere dui risus habitasse mauris. Venenatis aliquet id
         ultrices a lacus. Pretium vehicula pretium posuere justo sed.
       </p>
       <div className="flex gap-x-4 items-center">
         <img src={VenueUser} />
         <div>
-          <h1 className="text-black font-normal text-lg">Hellen Jummy</h1>
+          <h1 className="text-black font-normal lg:text-lg">Hellen Jummy</h1>
           <span className="text-colorCompany text-base font-normal">
             Team Lead
           </span>

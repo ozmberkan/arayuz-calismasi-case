@@ -3,8 +3,8 @@ import JoinUsImages from "./children/JoinUsImages";
 
 const JoinUs = () => {
   return (
-    <div className="flex w-full h-screen px-20 py-40 bg-[#FFFBEB]">
-      <div className="w-full bg-white rounded-xl joinUsBoxShadow p-20 flex">
+    <div className="flex w-full h-screen lg:px-20 lg:py-40 px-4 pt-4 mb-14 bg-[#FFFBEB]">
+      <div className="w-full bg-white rounded-xl joinUsBoxShadow lg:p-20 py-8 px-4 flex lg:flex-row flex-col">
         <JoinUsText />
         <JoinUsImages />
       </div>

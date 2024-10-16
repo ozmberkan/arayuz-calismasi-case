@@ -8,25 +8,25 @@ import Blue from "~/assets/JoinUs/Blue.svg";
 
 const JoinUsImages = () => {
   return (
-    <div className="flex-1 flex items-center justify-center relative">
+    <div className="flex-1 flex items-center justify-center relative ">
       <img
         src={Yellow}
-        className="absolute drop-shadow-2xl w-[1300px]"
+        className="absolute drop-shadow-2xl lg:w-[1300px]"
         alt="Yellow Decoration"
       />
       <img
         src={Purple}
-        className="absolute drop-shadow-2xl -bottom-12 right-32"
+        className="absolute drop-shadow-2xl lg:-bottom-12 lg:right-32 bottom-12 right-32"
         alt="Purple Decoration"
       />
       <img
         src={Brown}
-        className="absolute drop-shadow-2xl top-12 left-0"
+        className="absolute drop-shadow-2xl lg:top-12 lg:left-0 top-12 left-0"
         alt="Brown Decoration"
       />
       <img
         src={Pink}
-        className="absolute drop-shadow-2xl -bottom-24 -right-12"
+        className="absolute drop-shadow-2xl lg:-bottom-24 lg:-right-12 -bottom-6 -right-5"
         alt="Pink Decoration"
       />
       <img
@@ -36,12 +36,12 @@ const JoinUsImages = () => {
       />
       <img
         src={Blue}
-        className="absolute -top-24 right-24"
+        className="absolute lg:-top-24 lg:right-24 top-2 right-5"
         alt="Blue Decoration"
       />
       <img
         src={Green}
-        className="absolute drop-shadow-2xl -bottom-12 left-24"
+        className="absolute drop-shadow-2xl lg:-bottom-12 lg:left-24 bottom-6 left-5"
         alt="Green Decoration"
       />
     </div>

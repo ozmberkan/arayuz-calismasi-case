@@ -5,9 +5,9 @@ import Card from "./children/Card";
 
 const ProductList = () => {
   return (
-    <div className="w-full bg-colorPrimaryBlack flex flex-col gap-y-12 px-20 py-10 min-h-screen">
-      <div className="w-full flex justify-between items-center mb-8">
-        <h1 className="text-white font-extrabold text-5xl flex-1 leading-tight">
+    <div className="w-full bg-colorPrimaryBlack flex flex-col gap-y-8 lg:gap-y-12 lg:px-20 lg:py-10 px-4 py-12 min-h-screen">
+      <div className="w-full flex lg:justify-between items-center lg:flex-row flex-col gap-y-8 ">
+        <h1 className="text-white font-extrabold  text-3xl lg:text-5xl flex-1 leading-tight lg:text-left text-center">
           The Best of the Best
         </h1>
         <Link

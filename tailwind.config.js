@@ -15,6 +15,7 @@ export default {
       },
       backgroundImage: {
         backlights: "url('/src/assets/ProductList/Backlights.png')",
+        shoe: "url('/src/assets/Hero/Shoe.png')",
       },
     },
   },

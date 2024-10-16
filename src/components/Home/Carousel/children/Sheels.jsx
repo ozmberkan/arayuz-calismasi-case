@@ -9,14 +9,14 @@ const Sheels = () => {
         <img src={SheelsIcon} />
         <span className="text-colorCompany font-bold text-2xl">SHELLS</span>
       </div>
-      <p className="text-2xl font-normal text-black">
+      <p className="lg:text-2xl text-base font-normal text-black">
         Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet enim.
         Sit purus venenatis velit semper lectus sed ornare quam nulla.
       </p>
       <div className="flex gap-x-4 items-center">
         <img src={SheelsUser} />
         <div>
-          <h1 className="text-black font-normal text-lg">Hellen Jummy</h1>
+          <h1 className="text-black font-normal lg:text-lg">Hellen Jummy</h1>
           <span className="text-colorCompany text-base font-normal">
             Team Lead
           </span>

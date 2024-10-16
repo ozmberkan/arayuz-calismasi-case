@@ -10,7 +10,7 @@
 
 
 body {
-  @apply bg-gradient-custom font-roboto
+  @apply lg:bg-gradient-custom font-roboto sm:bg-white md:bg-white
 }
 
 
